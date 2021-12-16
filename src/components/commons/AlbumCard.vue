@@ -3,6 +3,7 @@
     <img src="" alt="">
     <h2>Title</h2>
     <h3>Author</h3>
+    <h3>Genre</h3>
     <h3>Year</h3>
 </div>
   

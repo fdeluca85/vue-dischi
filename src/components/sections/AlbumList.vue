@@ -10,6 +10,7 @@
 </template>
 
 <script>
+import axios from 'axios';
 import AlbumCard from "../commons/AlbumCard.vue"
 export default {
     name: 'AlbumList',
