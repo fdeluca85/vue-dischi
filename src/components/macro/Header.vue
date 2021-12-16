@@ -23,11 +23,11 @@ export default {
 <style lang='scss' scoped>
     header{
         background-color: #2E3A46;
-        height: 100px;
+        height: 80px;
     }
     img{
-        height: 80px;
-        margin: 10px 20px;
+        height: 50px;
+        margin: 20px;
     }
 
 

@@ -1,6 +1,6 @@
 <template>
 <div class="album">
-    <img :src="info.poster" alt="">
+    <img :src="info.poster" :alt="info.title + ' cover album'">
     <h2>{{info.title}}</h2>
     <h3>{{info.author}}</h3>
     <h3>{{info.year}}</h3>
@@ -18,6 +18,12 @@ export default {
 }
 </script>
 
-<style>
+<style lang='scss' scoped>
+.album{
+    img{
+        height: 150px;
+        margin: 25px;
+    }
+}
 
 </style>

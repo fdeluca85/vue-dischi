@@ -18,6 +18,20 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
 /*--------------
     TYPO
 --------------*/
+h2 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px auto;
+}
+h3 {
+  color: #79796f;
+  text-align: center;
+}

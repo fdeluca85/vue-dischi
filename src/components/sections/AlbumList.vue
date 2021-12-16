@@ -39,6 +39,18 @@ export default {
 }
 </script>
 
-<style>
+<style lang='scss' scoped>
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    .col{
+        margin: 20px;
+        background-color: #2E3A46;
+        width: 200px;
+        height: 400px;
+        
+    };
+
+}
 </style>
